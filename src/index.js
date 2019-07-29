@@ -3,19 +3,23 @@ import ReactDOM from 'react-dom';
 
 import ContentsPane from './table_of_contents';
 import BookContent from './book_content';
+import NavigationBar from './navbar';
 
 import * as serviceWorker from './serviceWorker';
 
 
 function App() {
   return (
-    <div className="d-flex justify-content-center">
-      <header className="w-25 d-none d-md-flex">
-        <ContentsPane/>
-      </header>
-      <main role="main" className="ml-4 w-100">
-        <BookContent/>
-      </main>
+    <div className="bg-light">
+      <NavigationBar/>
+      <div className="container-fluid" >
+        <div className="row flex-xl-nowrap">
+          <ContentsPane/>
+          <main className="col-12 col-md-8 col-xl-8 py-md-3 pl-md-5" role="main">
+            <BookContent/>
+          </main>
+        </div>
+      </div>
     </div>
   );
 }

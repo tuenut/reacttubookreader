@@ -3,7 +3,7 @@ import React from 'react';
 function LoremIpsum() {
   return (
     <div>
-      <div id={'chapter1'}>
+      <div className="chapter" id={'chapter1'}>
         <h2>Chapter 1</h2>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mattis tempus feugiat. Pellentesque et
@@ -35,7 +35,7 @@ function LoremIpsum() {
           dui sagittis condimentum ac et neque.
         </p>
       </div>
-      <div id={'chapter2'}>
+      <div className="chapter" id={'chapter2'}>
         <h2>Chapter 2</h2>
         <p>
           Integer faucibus pellentesque ex vel pharetra. Maecenas urna tellus, interdum tincidunt elementum in,
@@ -71,7 +71,7 @@ function LoremIpsum() {
           volutpat. Sed vitae magna non est mattis dignissim. Aliquam fringilla tincidunt lorem, eu pulvinar enim.
         </p>
       </div>
-      <div id={'chapter3'}>
+      <div className="chapter" id={'chapter3'}>
         <h2>Chapter 3</h2>
         <p>
           Nullam tristique vel tortor et pharetra. Suspendisse massa lectus, aliquet eu felis a, condimentum cursus
@@ -123,7 +123,7 @@ function LoremIpsum() {
           urna mollis. Proin et nibh odio. Vivamus euismod gravida purus in fringilla.
         </p>
       </div>
-      <div id={'chapter4'}>
+      <div className="chapter" id={'chapter4'}>
         <h2>Chapter 4</h2>
         <p>
           Maecenas vel libero quis ex accumsan sollicitudin. Phasellus vestibulum bibendum tortor ut lobortis. Ut elit
@@ -166,7 +166,7 @@ function LoremIpsum() {
           nostra, per inceptos himenaeos.
         </p>
       </div>
-      <div id={'chapter5'}>
+      <div className="chapter" id={'chapter5'}>
         <h2>Chapter 5</h2>
         <p>
           Quisque lobortis felis vitae mi pretium, nec consectetur massa sagittis. Nam odio dolor, semper eu lacinia
